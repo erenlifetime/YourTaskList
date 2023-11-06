@@ -10,7 +10,6 @@ import UIKit
 class tabBarViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var field: UITextField!
-    // buradaya var update açtım ViewController'a geçtiğimde vc.update = self
     var update: (() -> Void)?
     override func viewDidLoad() {
         super.viewDidLoad()
